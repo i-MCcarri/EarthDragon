@@ -1,0 +1,113 @@
+form label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: arial;
+    
+  }
+
+  form input[type=text] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 200px;
+  }
+
+  
+
+  form textarea {
+    height: 4.75rem;
+    width: 500px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  body {
+    margin: 10;
+  }
+  
+  header {
+    /* Sets background color to blue */
+    background-color: #0B1C51;
+    margin-bottom: 40px;
+    /* Adds space under the header */
+    font-family: 'Gochi Hand', cursive;
+    /* GochiHang Font for Title */
+  }
+  
+  header h1 {
+  color: #fff;
+  
+  font-size: 48px;
+  /*font size */
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  }
+  
+  header nav {
+     display: flex;
+     font-size: medium;
+     justify-content: center;
+  }
+  
+  header nav ul {
+     display: flex;
+     padding-left: 0;
+     list-style: none;
+  }
+  
+  header nav ul li a {
+     color: #fff;
+     /* nav font color */
+     font-family: 'Montserrat', sans-serif;
+     /* nav & ul font style */
+     text-decoration: none;
+     margin: 0 20px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+     margin-right: 0;
+     /* nav center appearing */
+  }
+  
+  
+  @media all and (min-width: 600px) {
+     header {
+        font-size: 52px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+     }
+  
+     header nav {
+        margin-top: 10px;
+     }
+  
+     header nav ul li a:hover {
+        color: #fff;
+     }
+  }
+
+
+
+/* 
+For this drill, you get the opportunity to build a functional email form. 
+From a minimum, you need to create the following fields:
+
+Name
+Email
+Message
+
+Of course, if you wish to add radio buttons, checkboxes, or a dropdown to include additional information you are welcome to.
+
+The webpage should be hosted on GitHub and published as a GitHub Page so the email form is functional. 
+If you run into any trouble, reach out to your classmates first. 
+If you continue to have issues, talk with your instructor. 
+*/

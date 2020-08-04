@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>E-mail Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<h1>HTML Form</h1>
+		<nav>
+			<ul id="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    <form action="https://formspree.io/adyceum@gmail.com"
+    method="post">
+        <!-- Username -->
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="user" autofocus="on" maxlength="13" required /><br>
+        <!-- Name -->
+        <label for="user-sirName">Lastname:</label>
+        <input id="user-sirName" type="text" name="sirName" required />
+
+        <label for="user-firstName">Firstname:</label>
+        <input id="user-firstName" type="text" name="firstName" required /><br>
+        <!-- Email -->
+        <label for="e-mail">E-mail:</label>
+        <input id="e-mail" type="text" name="e-mail" required /><br>
+        <!-- Message -->
+        <label for="form-message">Your message:</label>
+        <textarea id="form-message" name="message" minlength="165" rows="20"></textarea><br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
